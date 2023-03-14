@@ -1,0 +1,25 @@
+.aboutSection {
+  width: 100%;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  background-color: $black;
+  .aboutSection__text {
+    width: 50%;
+    color: $white;
+    .aboutSection__text-title {
+      font-family: $text-title;
+      font-size: 3rem;
+      text-transform: uppercase;
+    }
+    .aboutSection__text-description {
+      font-family: $text-general;
+      font-weight: 300;
+    }
+    .aboutSection__text-description--toright {
+      text-align: end;
+      font-weight: 900;
+    }
+  }
+}

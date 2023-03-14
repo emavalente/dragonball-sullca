@@ -1,0 +1,14 @@
+.newsSection {
+  width: 100%;
+  margin-top: 50px;
+  .newsSection__text-title {
+    font-family: $text-title;
+    font-size: 5rem;
+    margin-left: 25px;
+    text-transform: uppercase;
+    text-align: end;
+  }
+  hr {
+    margin-bottom: 40px;
+  }
+}
