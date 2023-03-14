@@ -111,14 +111,15 @@ body {
 
 .aboutSection {
   width: 100%;
-  padding-top: 50px;
+  padding: 50px 0;
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: end;
   background-color: #0c0c0c;
 }
 .aboutSection .aboutSection__text {
-  width: 50%;
+  width: 40%;
+  margin: 0 25px;
   color: #fff;
 }
 .aboutSection .aboutSection__text .aboutSection__text-title {
